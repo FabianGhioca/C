@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+// int main(){
     // int i = 5;
     // float f = 3.7;
     // int iSomma = i + f;
@@ -77,18 +77,51 @@ int main(){
 
 
 
-int N, somma = 0;
-printf("Inserisci un numero: ");
-scanf("%d", &N);
+// int N, somma = 0;
+// printf("Inserisci un numero: ");
+// scanf("%d", &N);
 
-for (int i = 1; i <= N; i++) {
-    somma += i;
-}
+// for (int i = 1; i <= N; i++) {
+//     somma += i;
+// }
 
-printf("La somma dei %d numeri è %d\n", N, somma);
-
-
+// printf("La somma dei %d numeri è %d\n", N, somma);
 
 
-return 0;
-}
+
+// convertire da decimale a binario
+
+// void convertToBinary(int decimal) {
+//     int binary[32];
+//     int index = 0;
+
+//     if(decimal == 0) {
+//         printf("Il numero binario è: 0\n");
+//         return;
+//     }
+
+//     while(decimal > 0) {
+//         binary[index] = decimal % 2;
+//         decimal = decimal / 2;
+//         index++;
+//     }
+    
+//     printf("Il numero binario è: ");
+//     for (int i = index - 1; i >= 0; i--) {
+//         printf("%d", binary[i]);
+//     }
+//     printf("\n");
+// }
+// int main(){
+//     int decimal;
+
+//     printf("Inserisci un numero decimale: ");
+//     scanf("%d", &decimal);
+
+//     if(decimal < 0) {
+//         printf("Per favore, inserisci un numero positivo.\n");
+//     } else {
+//         convertToBinary(decimal);
+//     }
+// return 0;
+// }
